@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
-  s.name        = "merit"
+  s.name        = "Slim-Badges"
   s.summary     = "General reputation Rails engine."
   s.description = "Manage badges, points and rankings (reputation) of resources in a Rails application."
-  s.homepage    = "http://github.com/tute/merit"
+  s.homepage    = "http://github.com/SlimBN/Slim-Badges"
   s.files       = `git ls-files`.split("\n").reject{|f| f =~ /^\./ }
   s.version     = '1.5.0'
-  s.authors     = ["Tute Costa"]
-  s.email       = 'tutecosta@gmail.com'
+  s.authors     = ["SlimBN"]
+  s.email       = 'hatchvenomslim@gmail.com'
 
   s.required_ruby_version = '>= 1.9.2'
 
